@@ -8,7 +8,7 @@ Git é um sistema de controle de versão, onde é possível gerenciar as versõe
 
 Após instalar o git é recomendado configurar algumas opções dele
 
-### git config --global user.name "Seu nome"
+#### git config --global user.name "Seu nome"
 
 Configura o nome de usuário do seu git, é recomendado que você utilize o seu próprio ou o seu algum nome que
 você seja reconhecido.
