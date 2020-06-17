@@ -4,9 +4,14 @@ Git é um sistema de controle de versão, onde é possível gerenciar as versõe
 
 ## Termos do Git e Github
 
-Commit - 
+#### Commit
 
-Pull request -
+Commit são todas as alterações feitas no repositório sendo salvas, por isso o termo: "commita esse código".
+
+#### Repositório
+
+Repositório é a pasta do projeto, todo repositório contém uma pasta oculta chamada .git, onde fica localizada
+todas as configurações do seu repositório.
 
 ## Comandos
 
