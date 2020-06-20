@@ -30,7 +30,7 @@ Configura o seu email no seu git.
 
 Configura o seu editor padrão.
 
-### git config --list
+#### git config --list
 
 Lista todas as configurações do seu git.
 
@@ -38,7 +38,7 @@ Lista todas as configurações do seu git.
 
 Efetua o download do repositório inicializando o repositório local.
 
-### git init
+#### git init
 
 Inicializa o repositório local do seu projeto.
 
