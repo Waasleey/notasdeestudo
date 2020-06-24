@@ -6,6 +6,8 @@ Talvez, posteriormente eu deixei mais organizado para que esse conteúdo seja ma
 
 ## [Acessibilidade :gem:](/Acessiblidade.md)
 
-## [Css :gem:](/Css.md)
+## [Css :gem:](/Front-end/Css.md)
+
+## [JavaScript :gem:](/Front-end/JavaScript.md)
 
 ## [Git e GitHub :gem:](/Git-and-Github.md)
