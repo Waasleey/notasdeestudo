@@ -25,4 +25,4 @@ function nomedafuncao(){
     bloco de código...
 }
 
-As funções criam um método chamado escopo, caso seja criada uma variável no corpo de função, a variável será visível apenas para a função e não para o restante do código.
+As funções criam um método chamado escopo, caso seja criada uma variável no corpo de função, a variável será visível apenas para a função e não para o restante do código
