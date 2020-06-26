@@ -33,3 +33,29 @@ As funções criam um método chamado escopo, caso seja criada uma variável no 
 
 (||) => Operador lógico or
 
+(!) => Operador lógico not
+
+#### Condicionais
+
+Para você verificar se um parametro recebeu determinado argumento, utilize:
+
+if (param === undefined){
+
+    bloco de código...
+}
+
+
+Condições ternárias de forma simples, servem para simplificar em apenas uma linha aquele bloco de código if else no js.
+
+condicao ? true : false;
+#### Objetos
+
+Objetos no Js funcionam de forma semelhante em relação a outras linguagens mais focadas a POO como C#, Java e etc.
+
+para criar objetos basta utilizar:
+
+var demo = { propriedade: "valor", propriedade1: 2};
+
+caso eu queira adicionar mais propriedades ao meu objeto demo, utilizo:
+
+demo.propriedade: "valor"
