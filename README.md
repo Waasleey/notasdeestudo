@@ -6,18 +6,18 @@ Talvez, posteriormente eu deixei mais organizado para que esse conteúdo seja ma
 
 ### Front-end
 
-- [Acessibilidade](Front-end/HTML/Acessibilidade.md)
+- [**Acessibilidade**](Front-end/HTML/Acessibilidade.md)
 
-- [Css](Front-end/CSS/Css.md)
+- [**Css**](Front-end/CSS/Css.md)
 
-- [JavaScript](/Front-end/JavaScript/JavaScript.md)
+- [**JavaScript**](/Front-end/JavaScript/JavaScript.md)
 
 ### Controles de Versões
 
-- [Git e GitHub ](/Git-and-Github.md)
+- [**Git e GitHub **](/Git-and-Github.md)
 
 ### Back-end
 
-- [Banco de dados]()
+- [**Banco de dados**]()
 
-- [Php]()
+- [**Php**]()
