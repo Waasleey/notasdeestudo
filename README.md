@@ -14,7 +14,7 @@ Talvez, posteriormente eu deixei mais organizado para que esse conteúdo seja ma
 
 ### Controles de Versões
 
-- [**Git e GitHub **](/Git-and-Github.md)
+- [**Git e GitHub**](/Git-and-Github.md)
 
 ### Back-end
 
