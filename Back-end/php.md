@@ -26,6 +26,10 @@ Tambem é possível referenciar as variáveis com o (&), antes da variável que 
 
 ##### Nota: Não é possível criar um variável com a palavra this, pois, ela é uma palavra chave da linguagem
 
+O escopo das variáveis funciona de maneira semelhante as demais linguagens existente, com o escopo local e global.
+
+Existe uma palavra chave chamada **$GLOBALS**, onde é possível referenciar variáveis de escopo locais.
+
 ## Trabalhando com Strings
 
 Para concatenar strings com variáveis é utilizado:
@@ -87,3 +91,58 @@ Para coletar dados dentro da array é passado o valor como indice, ou seja:
 **count(param);** Conta quantos indices tem no array
 
 **print_r(param);** Verifica os dados do array, porém é apresentado apenas ao dev
+
+## Trabalhando com function
+
+As functions, funcionam de maneira semelhante ao das demais linguagens.
+
+Para uma function retornar múltiplos valores, basta retornar estes valores dentro de um array
+
+function teste($a, $b) { 
+     
+    $soma = $a + $b;    // soma os parametros
+    $sub = $a - $b;     // subtrai os parametros
+    return array($soma,$sub); //retorna um array com o valor das variaveis 
+}
+
+    $chamada = teste(2,2);  //Variavel para passar os parametros
+
+    echo $chamada[0] . "\n"; 
+
+    echo $chamada[1];
+
+## Trabalhando com Dates
+
+No PHP existe diversas funções referentes a datas, que você pode configurar em poucas linhas
+
+$hora = getdate();
+            
+            $ano = $hora["year"];
+            $mes = $hora["mon"];
+            $dia = $hora["mday"];
+
+            $horas = $hora["hours"];
+            $minutos = $hora["minutes"];
+            $segundos = $hora["seconds"];
+
+            echo $dia . "/" . $mes . "/" . $ano . "\n" . $horas . ":" . $minutos . ":" . $segundos;
+
+## Links
+
+Com o PHP é possível passar links com parametros
+
+## Formulários
+
+#### Métodos de Requisições
+
+#### GET
+
+Requisita um representação do recurso especificado (O mesmo recurso pode ter várias representações, ao exemplo de serviços que retornam XML e JSON).
+
+#### POST
+
+Envia um recurso e solicita que o servidor aceite o recurso como subordinada
+
+#### DELETE
+
+O método DELETE, remove um tipo de dados ou recurso
