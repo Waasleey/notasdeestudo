@@ -63,3 +63,9 @@ Incorpora mudanças no repositório remoto.
 Sobe os arquivos do seu repositório local, para o seu repositório remoto.
 
 ## Possível erros, e como resolve-lós
+
+#### fatal: refusing to merge unrelated histories
+
+Acontece quando você tenta fazer o git pull de um repositório remoto, mas o seu repositório local possuí um histórico de commits diferente do que está no repositório remoto.
+
+Para resolver, basta utilizar o comando: git pull origin master --allow-unrelated-histories
