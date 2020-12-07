@@ -12,6 +12,16 @@ Páginas estáticas são vistas da mesma forma por todos os usuários.
 
 Páginas dinâmicas podem ser personalizadas de forma diferente para usuários distintos. Páginas de Redes Socias são um belo exemplo e se encaixam perfeitamente neste tipo de página.
 
+## Classes
+
+#### Atributos
+
+Recomendação de sempre serem privados.
+
+#### Métodos
+
+Recomendação de sempre serem públicos.
+
 ## Variáveis 
 
 As váriaveis do PHP devem começar com $. Os nomes das váriaveis são Case-sensitite, ou seja, nome é diferente de NOME.
