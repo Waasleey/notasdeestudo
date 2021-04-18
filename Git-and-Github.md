@@ -8,6 +8,10 @@ Git é um sistema de controle de versão, onde é possível gerenciar as versõe
 
 Commit são todas as alterações feitas no repositório sendo salvas, por isso o termo: "commita esse código".
 
+#### Branch
+
+Branch seria técnicamente, a linha de desenvolvimento de uma feature.
+
 #### Repositório
 
 Repositório é a pasta do projeto, todo repositório contém uma pasta oculta chamada .git, onde fica localizada
@@ -54,18 +58,50 @@ Commita o seu código
 
 Sincroniza o seu repositório local, com o seu repositório remoto.
 
-#### git pull origin master
+#### git pull nomedorepositorio branch
 
-Incorpora mudanças no repositório remoto.
+Baixa todas as alteração que houve no repositório.
 
-#### git push -u origin master
+#### git push nomedorepositorio branch
 
-Sobe os arquivos do seu repositório local, para o seu repositório remoto.
+Sobe para o servidor as atualizações que houve no repositório.
 
-## Possível erros, e como resolve-lós
+#### git branch
 
-#### fatal: refusing to merge unrelated histories
+Verifica a branch atual.
 
-Acontece quando você tenta fazer o git pull de um repositório remoto, mas o seu repositório local possuí um histórico de commits diferente do que está no repositório remoto.
+#### git checkout nomedabranch
 
-Para resolver, basta utilizar o comando: git pull origin master --allow-unrelated-histories
+Realiza a alteração para a branch indicada.
+
+#### git checkout -b nomedabrach
+
+Cria uma nova branch, e realiza a alteração para a mesma.
+
+#### git checkout
+
+Desfaz as alterações realizadas no código, antes de adiciona-las para commit.
+
+#### git reset
+
+Desfaz as alterações realizadas, antes de commitá-las.
+
+#### git revert
+
+Desfaz as alterações realizadas em um commit específico.
+
+#### git stash
+
+Armazena temporáriamente as alterações realizadas.
+
+#### git checkout códigodocommit
+
+Volta na linha de desenvolvimento, para o commit informado.
+
+#### git diff
+
+Verifica as mudanças realizadas no código durante o desenvolvimento.
+
+#### git tag -a nomedaversão
+
+Cria uma realease para o código.
