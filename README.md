@@ -1,8 +1,16 @@
 # :books: Notas de Estudo :books:
 
-Este repositório tem como objetivo deixar algumas anotações referente aos meus estudos na tecnologia
+Este repositório tem como objetivo deixar algumas anotações dos meus estudos.
 
-Talvez, posteriormente eu deixei mais organizado para que esse conteúdo seja mais acessível para todos.
+### Back-end
+
+- [**Banco de dados**]()
+
+- [**PHP**](/Back-end/php.md)
+
+### Controles de Versões
+
+- [**Git e GitHub**](/Git-and-Github.md)
 
 ### Front-end
 
@@ -12,12 +20,6 @@ Talvez, posteriormente eu deixei mais organizado para que esse conteúdo seja ma
 
 - [**JavaScript**](/Front-end/JavaScript/JavaScript.md)
 
-### Controles de Versões
+### Linux
 
-- [**Git e GitHub**](/Git-and-Github.md)
-
-### Back-end
-
-- [**Banco de dados**]()
-
-- [**Php**](/Back-end/php.md)
+- [**Shell Script**](Scripts/Shell%20Linux.md)
